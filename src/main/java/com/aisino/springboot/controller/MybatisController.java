@@ -14,4 +14,9 @@ public class MybatisController {
     public Object person(){
         return personService.getAllPerson();
     }
+
+    @GetMapping("boot/update")
+    public Object update(){
+        return personService.update();
+    }
 }
