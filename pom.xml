@@ -45,6 +45,11 @@
             <version>2.0.4.RELEASE</version>
         </dependency>
 
+        <!--springboot监控actuator起步依赖-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
 
     </dependencies>
 
